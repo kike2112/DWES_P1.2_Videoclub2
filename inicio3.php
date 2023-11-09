@@ -1,10 +1,13 @@
 <?php
-include_once "Videoclub.php"; // No incluimos nada más
-include_once "Soporte.php";
-include_once "CintaVideo.php";
-include_once "Dvd.php";
-include_once "Juego.php";
-include_once "Cliente.php";
+include_once "Dwes/ProyectoVideoclub/Videoclub.php";
+include_once "Dwes/ProyectoVideoclub/Soporte.php";
+include_once "Dwes/ProyectoVideoclub/CintaVideo.php";
+include_once "Dwes/ProyectoVideoclub/Dvd.php";
+include_once "Dwes/ProyectoVideoclub/Juego.php";
+include_once "Dwes/ProyectoVideoclub/Cliente.php";
+
+use \Dwes\ProyectoVideoclub\Videoclub;
+
 
 
 $vc = new Videoclub("Severo 8A");
